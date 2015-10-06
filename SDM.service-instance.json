@@ -15,6 +15,11 @@
       "ports": [
         {
           "description": "",
+          "number": "443",
+          "protocol": "https"
+        },
+        {
+          "description": "",
           "number": "80",
           "protocol": "http"
         },
