@@ -23,6 +23,15 @@
           "ipAddress": "10.13.0.6"
         }
       ]
+    },
+    {
+      "name": "undefined-int",
+      "version": "1.0.0",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default"
+        }
+      ]
     }
   ]
 }

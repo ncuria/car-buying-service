@@ -15,21 +15,11 @@
       "ports": [
         {
           "description": "",
-          "number": "443",
-          "protocol": "https"
-        },
-        {
-          "description": "",
-          "number": "80",
-          "protocol": "http"
-        },
-        {
-          "description": "",
           "number": "8080",
           "protocol": "http"
         }
       ],
-      "minCapacityOps": 50,
+      "minCapacityOps": 100,
       "minCapacityDeploy": "",
       "loadBalanced": true,
       "eosManaged": true
