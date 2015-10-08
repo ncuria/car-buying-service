@@ -1,9 +1,9 @@
 {
   "type": "nodes",
-  "serviceInstance": "car-buying-service-dr",
+  "serviceInstance": "car-buying-service-prod",
   "items": [
     {
-      "name": "carshop001.int.example.com-dr",
+      "name": "carshop001.int.example.com-prod",
       "version": "1.0.0",
       "machine": "carshop001.int.example.com",
       "ipAddresses": [
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "name": "carshop002.int.example.com-dr",
+      "name": "carshop002.int.example.com-prod",
       "version": "1.0.0",
       "machine": "carshop002.int.example.com",
       "ipAddresses": [
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "undefined-dr",
+      "name": "undefined-prod",
       "version": "1.0.0",
       "ipAddresses": [
         {
