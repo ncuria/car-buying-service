@@ -2,8 +2,8 @@
   "type": "service-instances",
   "items": [
     {
-      "key": "car-buying-service-int",
-      "environment": "int",
+      "key": "car-buying-service-dr",
+      "environment": "dr",
       "service": "car-buying-service",
       "dataCenter": "aws-us-east-1a",
       "ipAddressRoles": [
