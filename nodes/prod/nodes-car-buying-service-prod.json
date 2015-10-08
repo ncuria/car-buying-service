@@ -1,0 +1,50 @@
+{
+  "type": "nodes",
+  "serviceInstance": "car-buying-service-prod",
+  "items": [
+    {
+      "name": "airbook001.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "airbook001.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.5"
+        }
+      ]
+    },
+    {
+      "name": "airbook002.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "airbook002.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.6"
+        }
+      ]
+    },
+    {
+      "name": "airbook003.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "airbook003.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.7"
+        }
+      ]
+    },
+    {
+      "name": "airbook004.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "airbook004.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.8"
+        }
+      ]
+    }
+  ]
+}
