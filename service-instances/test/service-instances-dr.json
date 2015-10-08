@@ -1,0 +1,28 @@
+{
+  "type": "service-instances",
+  "items": [
+    {
+      "key": "car-buying-service-dr",
+      "environment": "dr",
+      "service": "car-buying-service",
+      "dataCenter": "aws-us-east-1a",
+      "ipAddressRoles": [
+        {
+          "name": "default",
+          "description": "Default role"
+        }
+      ],
+      "ports": [
+        {
+          "description": "",
+          "number": "8080",
+          "protocol": "http"
+        }
+      ],
+      "minCapacityOps": 100,
+      "minCapacityDeploy": "",
+      "loadBalanced": true,
+      "eosManaged": true
+    }
+  ]
+}

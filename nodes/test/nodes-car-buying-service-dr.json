@@ -1,0 +1,37 @@
+{
+  "type": "nodes",
+  "serviceInstance": "car-buying-service-dr",
+  "items": [
+    {
+      "name": "carshop001.int.example.com-dr",
+      "version": "1.0.0",
+      "machine": "carshop001.int.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.13.0.5"
+        }
+      ]
+    },
+    {
+      "name": "carshop002.int.example.com-dr",
+      "version": "1.0.0",
+      "machine": "carshop002.int.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.13.0.6"
+        }
+      ]
+    },
+    {
+      "name": "undefined-dr",
+      "version": "1.0.0",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default"
+        }
+      ]
+    }
+  ]
+}
